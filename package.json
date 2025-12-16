@@ -1,0 +1,27 @@
+{
+  "name": "tempo-network-testnet-script",
+  "version": "1.0.0",
+  "description": "Tempo Network Testnet automation script",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "menu": "node index.js menu",
+    "faucet": "node index.js faucet",
+    "balance": "node index.js balance",
+    "send": "node index.js send",
+    "create-token": "node index.js create-token",
+    "add-liquidity": "node index.js add-liquidity",
+    "remove-liquidity": "node index.js remove-liquidity",
+    "swap": "node index.js swap",
+    "dex-order": "node index.js dex-order"
+  },
+  "dependencies": {
+    "chalk": "^5.6.2",
+    "dotenv": "^16.6.1",
+    "inquirer": "^13.1.0",
+    "ora": "^9.0.0",
+    "tempo.ts": "^0.11.1",
+    "viem": "^2.42.1"
+  }
+}
